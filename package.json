@@ -1,0 +1,47 @@
+{
+  "name": "@alfarizi/convert-to-number",
+  "version": "1.0.5",
+  "description": "Typesafe converter from any value type into number. You can also specified the fallback if the result is NaN.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfariiizi/convert-to-number.git"
+  },
+  "keywords": [
+    "convert-to-number",
+    "javascript",
+    "typescript",
+    "convert",
+    "soft",
+    "number",
+    "array",
+    "object",
+    "string",
+    "boolean",
+    "null",
+    "undefined"
+  ],
+  "author": "Moh Rizal Alfarizi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alfariiizi/convert-to-number/issues"
+  },
+  "homepage": "https://github.com/alfariiizi/convert-to-number#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
