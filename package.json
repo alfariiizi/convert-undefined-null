@@ -1,7 +1,7 @@
 {
-  "name": "@alfarizi/convert-to-number",
-  "version": "1.0.5",
-  "description": "Typesafe converter from any value type into number. You can also specified the fallback if the result is NaN.",
+  "name": "@alfarizi/convert-undefined-null",
+  "version": "1.0.0",
+  "description": "Convert object that contain undefined to null and convert object that contain null to undefined",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -14,21 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alfariiizi/convert-to-number.git"
+    "url": "git+https://github.com/alfariiizi/convert-undefined-null"
   },
   "keywords": [
-    "convert-to-number",
-    "javascript",
-    "typescript",
     "convert",
-    "soft",
-    "number",
-    "array",
     "object",
-    "string",
-    "boolean",
-    "null",
-    "undefined"
+    "undefined",
+    "null"
   ],
   "author": "Moh Rizal Alfarizi",
   "license": "MIT",
